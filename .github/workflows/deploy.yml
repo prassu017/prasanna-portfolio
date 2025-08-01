@@ -32,9 +32,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      # SPA fallback so GitHub Pages serves index.html for unknown routes
+      # SPA fallback so GitHub Pages routes to index.html
       - name: Create 404 fallback
         run: cp dist/index.html dist/404.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
