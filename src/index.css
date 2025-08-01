@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* custom overrides */
+/* Reserved for future overrides; pills are handled inline via Tailwind utilities */
