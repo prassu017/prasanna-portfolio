@@ -140,7 +140,7 @@ function App() {
                 <ArrowRight className="w-4 h-4" />
               </button>
               <a
-                href="/Prasanna_Jain_Resume.docx"
+                href={`${import.meta.env.BASE_URL}Prasanna_Jain_Resume.docx`}
                 download
                 className="px-8 py-3 bg-black text-white rounded-lg border border-black hover:bg-black/90 transition-transform duration-200 hover:scale-[1.02] hover:shadow focus:outline-none focus:ring-2 focus:ring-black flex items-center space-x-2"
                 aria-label="Download resume"
@@ -154,7 +154,7 @@ function App() {
           {/* Right: 16:9 hero image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-full h-full min-h-[360px] md:min-h-[420px] rounded-xl overflow-hidden bg-slate-200">
-              <img src="/hero-banner.jpg" alt="Professional Headshot" className="absolute inset-0 w-full h-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}hero-banner.jpg`} alt="Professional Headshot" className="absolute inset-0 w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -527,12 +527,12 @@ function App() {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white rounded-2xl p-4 shadow-lg border border-slate-200">
                 <div className="aspect-[4/3] w-full rounded-xl overflow-hidden bg-slate-200">
-                  <img src="/casual-1.jpg" alt="Casual 1" className="w-full h-full object-cover" />
+                  <img src={`${import.meta.env.BASE_URL}casual-1.jpg`} alt="Casual 1" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="bg-white rounded-2xl p-4 shadow-lg border border-slate-200">
                 <div className="aspect-[4/3] w-full rounded-xl overflow-hidden bg-slate-200">
-                  <img src="/casual-2.jpg" alt="Casual 2" className="w-full h-full object-cover" />
+                  <img src={`${import.meta.env.BASE_URL}casual-2.jpg`} alt="Casual 2" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -579,7 +579,7 @@ function App() {
           </div>
 
           <div className="flex justify-center">
-            <a href="/Prasanna_Jain_Resume.docx" download className="px-8 py-3 bg-black text-white rounded-lg border border-black hover:bg-black/90 transition-transform duration-200 hover:scale-[1.02] hover:shadow focus:outline-none focus:ring-2 focus:ring-black flex items-center space-x-2" aria-label="Download resume">
+            <a href={`${import.meta.env.BASE_URL}Prasanna_Jain_Resume.docx`} download className="px-8 py-3 bg-black text-white rounded-lg border border-black hover:bg-black/90 transition-transform duration-200 hover:scale-[1.02] hover:shadow focus:outline-none focus:ring-2 focus:ring-black flex items-center space-x-2" aria-label="Download resume">
   <span>Download Resume</span>
 </a>
           </div>
