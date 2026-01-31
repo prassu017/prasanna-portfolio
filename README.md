@@ -32,10 +32,12 @@ A Squarespace-inspired single-page portfolio with scroll animations, clean typog
 
 ## Deploy to GitHub Pages
 
-1. Create a repo (e.g. `prasanna-portfolio-v2`) and push this folder.
-2. In the repo: **Settings → Pages** → Source: **Deploy from a branch**.
-3. Branch: `main`, folder: `/ (root)` (or put the site in a `docs` folder and select it).
-4. After deploy, the site will be at `https://<username>.github.io/<repo>/`.
+This repo is configured to deploy automatically via GitHub Actions:
+
+1. Push to the `main` branch.
+2. In the repo: **Settings → Pages** → Build and deployment → Source: **GitHub Actions**.
+3. The workflow deploys on every push to `main`.
+4. Site URL: `https://prassu017.github.io/prasanna-portfolio/`
 
 ## File structure
 
