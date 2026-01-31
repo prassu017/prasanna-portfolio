@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prasanna Jain — Data Analyst & AI Entrepreneur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Prasanna Jain</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#beyond">Beyond Code</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-photo-wrap animate-in">
+          <img src="assets/headshot.png" alt="Prasanna Jain" class="hero-photo" />
+        </div>
+        <div class="hero-text">
+          <p class="hero-greeting animate-in"><span class="hero-wave" aria-hidden="true">👋</span> Hello, I'm</p>
+          <h1 class="hero-title animate-in delay-1">Prasanna Jain</h1>
+          <p class="hero-tagline-wrap animate-in delay-2">
+            <span class="hero-tagline hero-tagline-static">I build </span>
+            <span class="hero-tagline-rotate" aria-hidden="true">
+              <span class="rotate-inner">scalable data systems</span>
+              <span class="rotate-inner">elegant software solutions</span>
+              <span class="rotate-inner">AI-powered analytics</span>
+            </span>
+          </p>
+          <p class="hero-location animate-in delay-3">Seattle, WA</p>
+          <p class="hero-bio animate-in delay-4">Data Analyst & AI Entrepreneur passionate about transforming unstructured data into actionable insights—bringing data analysis and AI to innovation-driven problems.</p>
+          <div class="hero-cta animate-in delay-5">
+            <a href="#projects" class="btn btn-primary">See My Work</a>
+            <a href="assets/Prasanna_Jain_DataAnalysisIntern_TempleAllenIndustries_2025-12-24.docx" class="btn btn-secondary" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">About Me</h2>
+        <p class="section-lead animate-on-scroll">A data-driven innovator with 2+ years of experience in data analysis and large-scale analytics systems</p>
+        <p class="about-text animate-on-scroll">Currently pursuing an MS in Business Analytics at the University of Washington, Foster School of Business. My passion lies at the intersection of AI, business analytics, and automation.</p>
+        <p class="about-text animate-on-scroll">I thrive on transforming unstructured data into actionable insights and building tools that support smarter decision-making and customer solutions. My experience spans market research and sentiment analysis to automated workflows and data pipelines.</p>
+
+        <div class="features-grid">
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-icon">⚡</div>
+            <h3>Skills & Technologies</h3>
+            <ul class="skill-tags">
+              <li>Python</li><li>SQL</li><li>Excel</li><li>Power BI</li><li>NLP</li><li>Streamlit</li><li>Azure</li><li>n8n</li><li>Databricks</li>
+            </ul>
+          </article>
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-icon">🎓</div>
+            <h3>Education</h3>
+            <p><strong>MS Business Analytics</strong><br>University of Washington, Foster School of Business (2025 – present)</p>
+            <p><strong>B.Tech Computer Science</strong><br>Symbiosis Institute of Technology, Pune, India</p>
+          </article>
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-icon">🌟</div>
+            <h3>Leadership</h3>
+            <p><strong>Mental Health Committee Director</strong><br>Reverb 2020, Symbiosis</p>
+            <p>Initiated mental health awareness campaigns reaching 100+ individuals. Presented research at ALPFA Pre-Convention Workshops.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-projects">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+        <p class="section-lead animate-on-scroll">Building the future, one line of code at a time</p>
+
+        <article class="project-card animate-on-scroll">
+          <div class="project-visual project-gallery esg-gallery">
+            <img src="assets/esg-1.png" alt="ESG Pulse — Sentiment & Stock Impact Tracker" class="project-img project-img-cycle" data-cycle-index="0" />
+            <img src="assets/esg-2.png" alt="ESG Portfolio Setup and raw market features" class="project-img project-img-cycle" data-cycle-index="1" />
+          </div>
+          <div class="project-content">
+            <h3>ESG Sentiment Agent</h3>
+            <p>An AI-powered web application for market and sentiment analysis: analyzes news sentiment and quantifies its influence on returns for custom portfolios. Combines NLP, sentiment scoring, regression analysis, and data visualization.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Streamlit</span><span>Data Analysis</span><span>NLP</span><span>Regression</span>
+            </div>
+            <p class="project-users"><strong>Use case:</strong> Market research, sentiment tracking, and data-driven decision support.</p>
+            <a href="https://esg-sentiment-agent-qzkfdnhzr3evlrbxertfaq.streamlit.app/" class="btn btn-primary" target="_blank" rel="noopener">Launch Live App</a>
+          </div>
+        </article>
+
+        <article class="project-card animate-on-scroll project-reverse">
+          <div class="project-visual project-gallery sdg-gallery">
+            <img src="assets/sdg-gender-1.png" alt="SDG Gender Index - Girls and Youth Data Visualization" class="project-img project-img-cycle" data-cycle-index="0" />
+          </div>
+          <div class="project-content">
+            <h3>SDG Gender Index Visualization</h3>
+            <p>A comprehensive data visualization project analyzing gender equality across 129 countries using the SDG Gender Index. This interactive dashboard explores girls' secondary school completion rates, regional performance comparisons, and correlations with overall gender equality metrics. Features scatter plots, world maps, and regional dot plots to provide insights into global gender equality trends.</p>
+            <div class="project-tags">
+              <span>Data Visualization</span><span>Data Analysis</span><span>Gender Equality</span><span>SDG</span><span>Interactive Dashboard</span>
+            </div>
+            <p class="project-users"><strong>Use case:</strong> Gender equality research, policy analysis, and understanding global trends in girls' education and gender equity.</p>
+          </div>
+        </article>
+
+        <article class="project-card animate-on-scroll">
+          <div class="project-visual project-gallery salary-gallery">
+            <img src="assets/salary-dashboard-1.png" alt="Data Science Salary Analysis Dashboard - Executive Summary and Statistics" class="project-img project-img-cycle" data-cycle-index="0" />
+            <img src="assets/salary-dashboard-2.png" alt="Data Science Salary Analysis - Charts and Global Map" class="project-img project-img-cycle" data-cycle-index="1" />
+            <img src="assets/salary-dashboard-3.png" alt="Data Science Salary Analysis - Correlation Matrix and Premium Analysis" class="project-img project-img-cycle" data-cycle-index="2" />
+            <img src="assets/salary-dashboard-4.png" alt="Data Science Salary Analysis - Interactive Data Explorer with Filters" class="project-img project-img-cycle" data-cycle-index="3" />
+          </div>
+          <div class="project-content">
+            <h3>Data Jobs Salary Analysis</h3>
+            <p>A personal project analyzing real salary data reported by employees all over the world, mainly North America. In the world of AI-powered analytics, I wanted to see what salary ranges we can expect as soon-to-be graduates. This comprehensive dashboard provides insights into data science salaries across experience levels, regions, and work types.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Streamlit</span><span>Data Analysis</span><span>Data Visualization</span><span>Dashboard</span>
+            </div>
+            <p class="project-users"><strong>Use case:</strong> Salary benchmarking, career planning, and understanding market trends for data professionals.</p>
+            <a href="https://salary-dashboard-ndilfdukvxxezqrvib6tk5.streamlit.app/" class="btn btn-primary" target="_blank" rel="noopener">Launch Live App</a>
+          </div>
+        </article>
+
+        <article class="project-card animate-on-scroll project-reverse">
+          <div class="project-visual project-gallery sage-gallery">
+            <img src="assets/sage.png" alt="Autonomous Sales Intelligence — AI-Powered Lead Generation" class="project-img project-img-cycle" data-cycle-index="0" />
+            <img src="assets/sage-slide.png" alt="Sage AI — Financial Projections" class="project-img project-img-cycle" data-cycle-index="1" />
+          </div>
+          <div class="project-content">
+            <h3>Sage AI Platform</h3>
+            <p>Founder of a sales automation platform leveraging AI for lead sourcing and outreach. Built a scalable workflow that identifies decision-makers, gathers contact and business data, and supports personalized outreach—combining data analysis with customer-focused solutions.</p>
+            <div class="project-tags">
+              <span>n8n</span><span>Web Scraping</span><span>Data Analysis</span><span>AI</span><span>Automation</span>
+            </div>
+            <p class="project-users"><strong>Use case:</strong> Market research, lead intelligence, and innovation-driven outreach.</p>
+            <div class="project-links">
+              <a href="https://lovable.dev/projects/39c5f94a-4476-4bc4-8155-bd5c77df2713" class="btn btn-primary" target="_blank" rel="noopener">View Prototype</a>
+              <a href="https://lovable.dev/projects/17686af8-9be1-4038-9f09-adc136c7da31" class="btn btn-secondary" target="_blank" rel="noopener">Alternative Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-experience">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Experience</h2>
+        <p class="section-lead animate-on-scroll">My professional journey in data analysis, engineering, and AI</p>
+
+        <div class="timeline">
+          <article class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>MS Business Analytics Student</h3>
+              <span class="timeline-date">2025 – present</span>
+              <p>Focusing on advanced analytics, machine learning, and business intelligence. Developing expertise in data analysis, modeling, and AI applications in business and engineering contexts.</p>
+            </div>
+          </article>
+          <article class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Data Analyst</h3>
+              <span class="timeline-date">2022 – 2024</span>
+              <p>2+ years of experience engineering scalable data pipelines, implementing ETL processes, and building analytics infrastructure. Specialized in data analysis and transforming unstructured data into actionable business insights.</p>
+            </div>
+          </article>
+          <article class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Mental Health Committee Director</h3>
+              <span class="timeline-date">2020</span>
+              <p>Led mental health awareness initiatives reaching 100+ individuals. Presented research findings at ALPFA Pre-Convention Workshops, demonstrating leadership in social impact, writing, and public speaking.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="beyond" class="section section-beyond">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Beyond Code</h2>
+        <p class="section-lead animate-on-scroll">The human side of a data engineer</p>
+
+        <div class="beyond-life animate-on-scroll">
+          <div class="beyond-life-card">
+            <div class="beyond-life-visual">
+              <img src="assets/travel.png" alt="Prasanna snowboarding" />
+            </div>
+            <div class="beyond-life-content">
+              <h3>Travel & new things</h3>
+              <p>I like to travel and learn new things.</p>
+            </div>
+          </div>
+          <div class="beyond-life-card">
+            <div class="beyond-life-visual">
+              <img src="assets/thor.png" alt="Thor" />
+            </div>
+            <div class="beyond-life-content">
+              <h3>Thor</h3>
+              <p>World's best boy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="beyond-grid">
+          <div class="beyond-card animate-on-scroll">
+            <h3>Tech & Innovation</h3>
+            <ul>
+              <li>Open Source Contributing</li>
+              <li>AI Ethics Research</li>
+              <li>Hackathons</li>
+            </ul>
+          </div>
+          <div class="beyond-card animate-on-scroll">
+            <h3>Leadership & Community</h3>
+            <ul>
+              <li>Mentoring Students</li>
+              <li>Public Speaking</li>
+              <li>Model United Nations</li>
+            </ul>
+          </div>
+          <div class="beyond-card animate-on-scroll">
+            <h3>Personal Interests</h3>
+            <ul>
+              <li>Photography</li>
+              <li>Tech Blogging</li>
+              <li>Football</li>
+            </ul>
+          </div>
+          <div class="beyond-card animate-on-scroll">
+            <h3>Speaking & Writing</h3>
+            <ul>
+              <li>Workshop Facilitation</li>
+              <li>Technical Writing</li>
+              <li>Conference Talks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Let's Build Cool Stuff Together</h2>
+        <p class="section-lead animate-on-scroll">Ready to collaborate on your next data project or AI innovation?</p>
+        <div class="contact-links animate-on-scroll">
+          <a href="mailto:prassu017@gmail.com" class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">prassu017@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/prasanna-jain-164656222/" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Connect with me</span>
+          </a>
+          <a href="https://github.com/prassu017" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">View my code</span>
+          </a>
+          <a href="assets/Prasanna_Jain_DataAnalysisIntern_TempleAllenIndustries_2025-12-24.docx" class="btn btn-primary" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Prasanna Jain. Built with care.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" aria-label="Close"></div>
+    <button type="button" class="lightbox-prev" aria-label="Previous image">&larr;</button>
+    <button type="button" class="lightbox-next" aria-label="Next image">&rarr;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img" />
+      <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
