@@ -1,16 +1,16 @@
-# Prasanna Jain — Portfolio
+# Prasanna Jain , Portfolio
 
 A Squarespace-inspired single-page portfolio with scroll animations, clean typography, and responsive layout. Content migrated from [prassu017.github.io/prasanna-portfolio](https://prassu017.github.io/prasanna-portfolio/).
 
 ## Features
 
-- **Hero** — Staggered fade-in on load, scroll indicator
-- **About** — Skills, education, leadership in feature cards with hover states
-- **Projects** — ESG Sentiment Agent & Sage AI Platform with tags and CTAs
-- **Experience** — Timeline layout with markers
-- **Beyond Code** — Grid of interest categories
-- **Contact** — Email, LinkedIn, GitHub, resume download
-- **Animations** — Scroll-triggered reveals (Intersection Observer), smooth scroll, mobile menu
+- **Hero** , Staggered fade-in on load, scroll indicator
+- **About** , Skills, education, leadership in feature cards with hover states
+- **Projects** , ESG Sentiment Agent & Sage AI Platform with tags and CTAs
+- **Experience** , Timeline layout with markers
+- **Beyond Code** , Grid of interest categories
+- **Contact** , Email, LinkedIn, GitHub, resume download
+- **Animations** , Scroll-triggered reveals (Intersection Observer), smooth scroll, mobile menu
 
 ## Run locally
 

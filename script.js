@@ -1,5 +1,5 @@
 /**
- * Prasanna Jain Portfolio — Scroll animations & interactions
+ * Prasanna Jain Portfolio , Scroll animations & interactions
  * Squarespace-style reveal on scroll
  */
 
