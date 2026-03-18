@@ -84,7 +84,7 @@
 
   // ----- Image cycling on hover for project galleries -----
   function initImageCycling() {
-    document.querySelectorAll(".project-gallery.esg-gallery, .project-gallery.sage-gallery, .project-gallery.salary-gallery").forEach((gallery) => {
+    document.querySelectorAll(".project-gallery.esg-gallery, .project-gallery.sage-gallery, .project-gallery.salary-gallery, .project-gallery.ccc-gallery").forEach((gallery) => {
       const images = Array.from(gallery.querySelectorAll(".project-img-cycle"));
       if (images.length < 2) return;
 
